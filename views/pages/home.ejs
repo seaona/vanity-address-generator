@@ -1,0 +1,26 @@
+<%- include('../../partials/header.ejs') %>
+
+<h1>Generador d'adreces de vanitat</h1>
+
+
+    <div class="form">
+        <h2>Bitcoin</h2>
+        <form action="/bitcoin" method="POST">
+            <input type="text" name="bitcoin"></input>
+            <label>Caràcters amb els que es vol que comenci l'adreça pública. Nota: com més caràcters més tardarà a resoldre l'adreça. Recomanable 1 o 2, per a veure resultats en menys de 5 minuts.</label>
+            <button type="submit">Genera Adreça</button>
+        </form>
+    </div>
+    
+
+    <div class="form">
+        <h2>Ethereum</h2>
+        <form action="/ethereum" method="POST">
+            <input type="text" name="ethereum"></input>
+            <label>Caràcters amb els que es vol que comenci l'adreça pública. Nota: com més caràcters més tardarà a resoldre l'adreça. Recomanable 1 o 2, per a veure resultats en menys de 5 minuts.</label>
+            <button type="submit">Genera Adreça</button>
+        </form>
+    </div>
+    
+
+<%- include('../../partials/footer.ejs') %>

@@ -1,0 +1,107 @@
+body {
+  background-color: #070b26;
+  color: white;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form{
+  width:600px;
+  margin-left: auto;
+  margin-right: auto;
+  background:#1a2332;
+  border-radius:10px;
+  margin-bottom:10px;
+  padding: 20px 50px;
+  margin-top: 5rem;
+}
+
+input, .floating-placeholder{
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:15pt;
+  line-height:2.6em;
+  height:2.6em;
+  margin:0;
+  padding:12px;
+  width:100%;
+  background-color: #070b26;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+
+.floating-placeholder{
+  position:relative;
+}
+
+.floating-placeholder input{
+  font-size:20pt;
+  border:none;
+  outline:none;
+  margin-top: 10px;
+  left:0;
+  display:block;
+  background:transparent;
+  z-index:2;
+  border-bottom:1px solid #ccc;
+  font-weight: 100;
+}
+
+.floating-placeholder:last-child input{
+  border-bottom:none;
+}
+.floating-placeholder label{
+  display:block;
+  position:absolute;
+  margin-top:10px;
+  color: #a4b1cd;
+}
+
+label {
+  font-weight: 100 !important;
+}
+
+input:focus {
+  outline: none !important;
+    border:1px solid #1abc9c; 
+}
+
+.floating-placeholder-float input{
+  line-height:3.4em;
+}
+
+button {
+  margin-top: 35px;
+  border: none;
+  line-height: 0;
+  font-size: 12pt;
+  display: center;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  z-index: 1;
+  color: black;
+  background-color: #1abc9c;
+  border-radius: 15px;
+  position: center;
+}
+
+
+.result {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background:#1a2332;
+  border-radius:10px;
+  margin-bottom:10px;
+  padding: 20px 50px;
+  margin-top: 5rem;
+}
