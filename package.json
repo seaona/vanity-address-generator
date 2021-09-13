@@ -1,0 +1,16 @@
+{
+  "name": "vanity-address",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vanity-btc": "^1.0.0",
+    "vanity-eth": "^1.2.0"
+  }
+}
